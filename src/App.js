@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import Skill from "./components/Skill/Skill";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -26,6 +27,7 @@ function App() {
       <Services />
       {/* <Experience /> */}
       <Works />
+      <Skill></Skill>
       <Portfolio />
       <Testimonial />
       <Contact />
