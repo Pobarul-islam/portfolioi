@@ -23,7 +23,7 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Skill & Brands</span>
+          <span>About Me</span>
           <spane>
           Web developer, with extensive knowledge <br />
           And years of experience, working in web <br />

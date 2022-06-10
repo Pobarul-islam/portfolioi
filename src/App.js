@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
+import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
@@ -11,6 +12,11 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import Skill from "./components/Skill/Skill";
+import Blog from "./components/Blogs/Blog";
+import NotFound from "./components/NotFound/NotFound";
+
+
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -32,6 +38,11 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+      <Routes>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+      </Routes>
+  
 
     </div>
   );
