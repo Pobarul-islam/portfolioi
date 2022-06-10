@@ -25,11 +25,13 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        Web developer, with extensive knowledge <br />
+        And years of experience, working in web <br />
+        Technologies and Ui/Ux design, delivering <br />
+        Quality work. 
+
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -37,7 +39,7 @@ const Services = () => {
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
-      <div className="cards">
+      <div className="cards right-side">
         {/* first card */}
         <motion.div
           initial={{ left: "25rem" }}
@@ -72,7 +74,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Website adaptable to all device, with Iui components and animated nteraction."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

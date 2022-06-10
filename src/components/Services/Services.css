@@ -40,6 +40,9 @@
 .cards {
   position: relative;
 }
+.right-side{
+  margin-left: 20%;
+}
 .cards > * {
   position: absolute;
 }
