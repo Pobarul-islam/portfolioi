@@ -26,22 +26,22 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://pobarul-islam.github.io/Penguin-fashion/"><img src={Sidebar} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://pobarul-islam.github.io/weather-app/"><img src={Ecommerce} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+         <a href="https://stockwatches.netlify.app/"> <img src={MusicApp} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://manufacturer-tools.netlify.app/"><img src={HOC} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Package} alt="" />
+        <a href="https://determined-johnson-1c50e3.netlify.app/">  <img src={Package} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={bank} alt="" />
+         <a href="https://thirsty-haibt-c09bd1.netlify.app/"> <img src={bank} alt="" /></a>
         </SwiperSlide>
       </Swiper>
     </div>
